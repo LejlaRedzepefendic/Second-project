@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.gornji {
+    width: 100%;
+    /* height: 8vw; */
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    /* box-shadow: 1px 1px 100px; */
+    font-size: 16px;
+}
+
+.gornji p {
+    display: block;
+    float: left;
+    padding: 8px 12px;
+}
+
+.bn {
+    float: right;
+    padding: 8px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bn:hover {
+    background-color:rgba(240, 232, 232, 0.719) ;
+}
+.gornji p1 {
+    display: block;
+    float: left;
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    padding-left: 40px;
+}
+
+.gornji p:hover {
+    background-color: rgb(195, 186, 186);
+}
+
+.gornji p1:hover {
+    background-color: rgb(199, 190, 190);
+    color: black;
+}
+
+.main {
+    width: 80vw;
+    height: 100vh;
+}
+
+.main img {
+    width: 98vw;
+    height: 100vh;
+}
+
+.container {
+    width: 45vw;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.red-cont {
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    padding-left:13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    
+}
+
+.class {
+    padding: 15px 15px;
+    font-size: 12px;
+    float: left;
+}
+
+.check-in {
+    width: 20vw;
+    padding: 7px;
+
+}
+
+.class2 {
+    padding: 15px 15px;
+    font-size: 12px;
+    float: left;
+}
+
+.check-out {
+    width: 20vw;
+    padding: 7px;
+
+}
+
