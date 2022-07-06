@@ -69,3 +69,51 @@ img {
     top: 40%;
     left: 1.5%;
 }
+
+.table-body {
+    display:flex ;
+    justify-content: center;
+}
+
+.box {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+}
+
+.box2 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+}
+
+.box3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+}
+
+.box4 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+}
+
+.checkin {
+    width: 90%;
+    height: 20%;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid rgb(225, 215, 215);
+}
+
+.checkout {
+    width: 90%;
+    height: 20%;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid rgb(225, 215, 215);
+}
