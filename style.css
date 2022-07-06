@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-    background-color: red;
+    background-color: #f44336;
 }
 
 .header a {
@@ -43,6 +43,29 @@ img {
     width: 98.5vw;
     height: 98vh;
 }
+
+.table-header {
+    background-color: #f44336;
+    height: 45px;
+}
+
+.table-header h1 {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+}
+
+.table-header i {
+    padding: 14px;
+    color: aliceblue;
+    font-size: 22px;
+}
+
 .table {
-    background-color: red;
+    width: 500px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 1.5%;
 }
