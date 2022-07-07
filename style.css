@@ -166,6 +166,12 @@ img {
     margin-top: -12px;
 }
 
+
+.main2 {
+    position: absolute;
+    top: 120%;
+}
+
 .one {
     padding-left: 10px;
     padding-top: 10px;
