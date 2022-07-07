@@ -37,6 +37,7 @@ body {
 .section {
     width: 100vw;
     height: 100vh;
+    background-color: #f1f1f1;
 }
 
 img {
@@ -62,8 +63,9 @@ img {
 }
 
 .table {
+    display: inline-block;
     width: 500px;
-    height: 210px;
+    height: 180px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     top: 40%;
@@ -88,18 +90,23 @@ img {
     font-size: 11px;
 }
 
+
+.table-body2 {
+    display:flex ;
+    justify-content: end;
+}
+
 .box3 {
     padding-left: 10px;
     padding-top: 10px;
     font-size: 11px;
-    
 }
 
 .box4 {
     padding-left: 10px;
     padding-top: 10px;
     font-size: 11px;
-    
+    clear: both;
 }
 
 .checkin {
@@ -112,6 +119,62 @@ img {
 
 .checkout {
     width: 90%;
+    height: 20%;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid rgb(225, 215, 215);
+}
+
+.adults {
+    width: 92%;
+    height: 20%;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid rgb(225, 215, 215);
+}
+
+.children {
+    width: 92%;
+    height: 20%;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid rgb(225, 215, 215);
+    clear: both;
+}
+
+.search1 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    margin: auto;
+}
+
+.main1 {
+    width: 98vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.main1 h4 {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.main1 p {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: -12px;
+}
+
+.one {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+}
+
+.checkin2 {
+    width: 25%;
     height: 20%;
     padding: 8px;
     text-align: left;
